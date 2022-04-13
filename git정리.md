@@ -32,3 +32,51 @@ code
 * git remote add origin (주소) 
 *  git push origin master
 
+
+
+
+
+
+
+``` 
+branch
+```
+
+1. git branch  =  __브런치 확인하기__
+2. git branch 브런치명  = __브런치 생성하기__
+3. git switch 브런치명  = __브런치 바꾸기__
+4. git merge 브런치명 = __브런치 합치기__
+
+
+
+* Ex) git init  >  touch a.txt  >git add a.txt > git commit -m '왜 이렇게 저장했는지에 대한 메시지' >
+
+``` 
+git commit -m '??' : ?안에는 왜 수정했는지에 대한 메시지를 다음사람에게 알려주기 위해 * 
+```
+
+
+
+​		git switch -c ???  >  git add a.txt  >   git commit -m '???' >  git switch master  >  git add a.txt   >
+
+``` 
+		* git switch -c ??? : 바로 git init 한 상태로 새 브런치를 만들고 불러온다*
+```
+
+
+
+​		git commit -m '???'  > git branch  >  git merge test ; 
+
+``` 
+git branch 를 입려하여 현재 생성된 브런치를 볼수있다. * 합치기 전에 확인하자 *
+```
+
+
+
+``` 
+Gitignore :저장소
+```
+
+
+
+ touch .gitignore 
