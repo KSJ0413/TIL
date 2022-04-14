@@ -79,4 +79,4 @@ Gitignore :저장소
 
 
 
- touch .gitignore 
+ touch .gitignore }
